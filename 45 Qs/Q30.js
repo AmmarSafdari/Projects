@@ -1,6 +1,7 @@
-var username = ["Admin", "Ammar", "Hamah", "Amir", "Okasha"];
+"use strict";
+const username = ["Admin", "Ammar", "Hamah", "Amir", "Okasha"];
 function greetusers() {
-    for (var i in username) {
+    for (const i in username) {
         if (username[i].toLowerCase() == "Admin") {
             console.log("Hello Admin, what work are we getting done today?");
         }

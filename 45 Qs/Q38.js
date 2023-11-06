@@ -1,5 +1,5 @@
-function describe_city(city, country) {
-    if (country === void 0) { country = "Pakistan"; }
+"use strict";
+function describe_city(city, country = "Pakistan") {
     console.log(city + " is in " + country);
 }
 describe_city("Karachi");

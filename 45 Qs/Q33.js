@@ -1,7 +1,7 @@
-var num = [9, 8, 7, 6, 5, 4, 3, 2, 1];
-for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
-    var number = num_1[_i];
-    var ordinal = void 0;
+"use strict";
+const num = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+for (const number of num) {
+    let ordinal;
     if (number === 1) {
         ordinal = "st";
     }
@@ -14,5 +14,5 @@ for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
     else {
         ordinal = "th";
     }
-    console.log("".concat(number).concat(ordinal));
+    console.log(`${number}${ordinal}`);
 }

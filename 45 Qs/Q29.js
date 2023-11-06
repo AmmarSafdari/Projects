@@ -1,4 +1,6 @@
-var favoriteFruits = ["apple", "banana", "orange"];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const favoriteFruits = ["apple", "banana", "orange"];
 if (favoriteFruits.includes("apple")) {
     console.log("I love apples");
 }

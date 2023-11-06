@@ -1,12 +1,11 @@
-var anim = ["Horse", "Camel", "Goat"];
+"use strict";
+const anim = ["Horse", "Camel", "Goat"];
 console.log("List of animals");
-for (var _i = 0, anim_1 = anim; _i < anim_1.length; _i++) {
-    var list = anim_1[_i];
+for (const list of anim) {
     console.log(list);
 }
 console.log("\nStatements on Animals: ");
-for (var _a = 0, anim_2 = anim; _a < anim_2.length; _a++) {
-    var list = anim_2[_a];
+for (const list of anim) {
     if (list === "Horse") {
         console.log("A " + list + " is the best animal");
     }
@@ -17,5 +16,5 @@ for (var _a = 0, anim_2 = anim; _a < anim_2.length; _a++) {
         console.log("A " + list + " is used for getting milk and also to be enjoyed on Eid");
     }
 }
-console.log("\n What do they all have in common you may ask");
+console.log("\nWhat do they all have in common you may ask");
 console.log("They are all mammals!");
